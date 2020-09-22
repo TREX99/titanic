@@ -185,7 +185,7 @@ When using pipelines inside RandomSearchCV (or GridSearchCV), this problem is ta
 ### 8. Pipeline Construction 요약
 ```
 이론적인 표현 : 원본에서 categorical, numeric columns별로 데이타 전처리와 분류기를 찾는 Pipeline을 생성하는 것
-실무에서 표현 :  원본에서 categorical, numeric columns별로 데이타 전처리와 분류기 찾기 기능을 갖는 함수를 만들어라.
+실무에서 표현 : 원본에서 categorical, numeric columns별로 데이타 전처리와 분류기 찾기 기능을 갖는 함수를 만들어라.
 
 예를들어 아래와 같이 사용하는 defineBestModelPipeline() 함수를 만들어라
 x_train, x_test, y_train, y_test, best_model_pipeline = defineBestModelPipeline(df, target, categorical_columns, numeric_columns)
